@@ -105,7 +105,7 @@
 		font-weight: _font(weight-heading-bold);
 		letter-spacing: _font(kern-heading);
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 
 		a {
 			color: inherit;
@@ -166,7 +166,7 @@
 	}
 
 	blockquote {
-		border-left: solid 4px _palette(border);
+		border-left: solid 4px _palette(important);
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
