@@ -1,3 +1,72 @@
+/*
+QUICK N DIRTY COLOR SCHEME:
+$palette: (
+		bg:						#D3426E,
+		fg:						#ffffff,
+		fg-bold:				#ffffff,
+		fg-light:				rgba(255,255,255,0.35),
+		border:					rgba(255,255,255,0.125),
+		border-bg:				rgba(255,255,255,0.025),
+		border2:				rgba(255,255,255,0.25),
+		border2-bg:				rgba(255,255,255,0.075),
+		accent:					#E785A2,
+		important:	    		#42CBD4,
+		fg-alt:					#000000,
+		border-alt:				rgba(0,0,0,0.125)
+	);
+
+light grey: e0e0e0;
+*/
+
 h1, h2 {
 	letter-spacing: 0;
 }
+
+/*
+#ourOverview {
+	background-color: white;
+	color: black;
+}
+
+#ourOverview * {
+	color: black;
+}
+*/
+
+.myBox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.myCircle {
+	color: white;
+	height: 14rem;
+	width: 14rem;
+	background-color: #c0c0c0;
+	border-radius: 50%;
+	line-height: 100%;
+
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.myCircle span {
+	width: 60%;
+	height: 60%;
+
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+
+	text-align: center;
+}
+
+@media screen and (max-width: 1680px) { .myCircle {height: 12rem; width: 12rem;} }
+@media screen and (max-width: 1280px) { .myCircle {height: 10rem; width: 10rem;} }
+@media screen and (max-width: 980px) { .myCircle {height: 8rem; width: 8rem;} }
+@media screen and (max-width: 736px) { .myCircle {height: 6rem; width: 6rem;} }
+@media screen and (max-width: 480px) { .myCircle {height: 4rem; width: 4rem;} }

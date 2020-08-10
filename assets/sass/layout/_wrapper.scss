@@ -208,6 +208,57 @@
 			}
 		}
 
+		/*ROBERT CUSTOM*/
+		&.ourOverview {
+			@include wrapper-edges-color(_palette(fg));
+			background-color: _palette(fg);
+
+			.inner {
+				@include vendor('display', 'flex');
+				@include vendor('align-items', 'center');
+				@include vendor('flex-direction', 'row');
+			}
+
+			
+			.image {
+				/*
+				border-radius: 100%;
+				margin: 0 _size(section-spacing, large) _size(element-margin) 0;
+				width: 22em;
+				overflow: hidden;
+				-ms-flex: 1;*/
+
+				img {
+					border-radius: 100%;
+					width: 100%;
+				}
+			}
+
+			.content {
+				width: 100%;
+				-ms-flex: 2;
+				color: _palette(fg-alt);
+			}
+
+			.content * {
+				color: _palette(fg-alt);
+			}
+
+			h2 {
+				border-bottom: solid 2px _palette(border-alt);
+			}
+
+			@for $i from 2 through _misc(max-wrapper-styles) {
+				$j: 3 * ($i - 1);
+				$color: saturate(darken(_palette(fg), $j), $j * 0.5);
+
+				&.style#{$i} {
+					background-color: $color;
+					@include wrapper-edges-color($color);
+				}
+			}
+		}
+
 		@include breakpoint('<=medium') {
 			margin: _size(wrapper-edges, medium) 0;
 
