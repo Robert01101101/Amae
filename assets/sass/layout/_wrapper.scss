@@ -280,6 +280,24 @@
 				color: _palette(fg);
 			}
 
+			h1 {
+				color: _palette(fg-alt);
+			}
+
+
+			h2 {
+				color: _palette(fg-alt);
+				border-bottom: solid 2px _palette(border-alt);
+			}
+
+			a {
+				color: _palette(important);
+				font-weight: 400;
+			}
+			a:hover {
+				color: _palette(important-dark) !important;
+			}
+
 		}
 
 		@include breakpoint('<=medium') {
