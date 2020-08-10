@@ -124,7 +124,7 @@ h1, h2 {
 	margin-top: -10rem;
 	top: calc(0 + 10rem);
 
-	box-shadow: 0px 0px 5rem rgba(0,0,0,.25);
+	box-shadow: 0px 0px 3rem rgba(0,0,0,.25);
 }
 
 #wrapper.overwrite #one { z-index: 10; }
@@ -136,6 +136,40 @@ h1, h2 {
 #wrapper.overwrite #two .image img { z-index: 15; }
 #wrapper.overwrite #three .image img { z-index: 25; }
 #wrapper.overwrite #four .image img { z-index: 35; }
+
+.homeMockup img {	transition: transform .5s;}
+.homeMockup img:hover {	transform: scale(1.02); }
+
+
+
+
+
+.features article {
+	box-shadow: 0px 0px 3rem rgba(0,0,0,0.25);
+}
+
+[aos="fade"] {
+  opacity: 0.5;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*------------------------------------------------------------------------------------- Kaitlyn */

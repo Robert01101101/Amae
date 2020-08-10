@@ -236,7 +236,7 @@ blockquote {
 
 code {
   background: rgba(255, 255, 255, 0.025);
-  border-radius: 5px;
+  border-radius: 20px;
   border: solid 2px rgba(255, 255, 255, 0.125);
   font-family: "Courier New", monospace;
   font-size: 0.9em;
@@ -1225,7 +1225,7 @@ textarea {
   -ms-appearance: none;
   appearance: none;
   background: rgba(255, 255, 255, 0.025);
-  border-radius: 5px;
+  border-radius: 20px;
   border: none;
   border: solid 2px rgba(255, 255, 255, 0.125);
   color: inherit;
@@ -1315,7 +1315,7 @@ input[type="radio"] {
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       background: rgba(255, 255, 255, 0.025);
-      border-radius: 5px;
+      border-radius: 20px;
       border: solid 2px rgba(255, 255, 255, 0.125);
       content: '';
       display: inline-block;
@@ -1338,7 +1338,7 @@ input[type="radio"] {
     border-color: #E785A2; }
 
 input[type="checkbox"] + label:before {
-  border-radius: 5px; }
+  border-radius: 20px; }
 
 input[type="radio"] + label:before {
   border-radius: 100%; }
@@ -1361,7 +1361,7 @@ input[type="radio"] + label:before {
 
 /* Box */
 .box {
-  border-radius: 5px;
+  border-radius: 20px;
   border: solid 2px rgba(255, 255, 255, 0.125);
   margin-bottom: 2em;
   padding: 1.5em; }
@@ -1401,12 +1401,12 @@ input[type="radio"] + label:before {
 
 /* Image */
 .image {
-  border-radius: 5px;
+  border-radius: 20px;
   border: 0;
   display: inline-block;
   position: relative; }
   .image img {
-    border-radius: 5px;
+    border-radius: 20px;
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
@@ -1617,7 +1617,7 @@ ul.pagination {
       -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
       transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
       border-bottom: 0;
-      border-radius: 5px;
+      border-radius: 20px;
       display: inline-block;
       height: 1.5em;
       line-height: 1.5em;
@@ -1703,7 +1703,7 @@ button,
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 20px;
   border: 0;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
   color: #ffffff !important;
@@ -1814,13 +1814,13 @@ button,
   .features article {
     padding: 1.75em 1.75em 0.1em 1.75em ;
     background-color: #d45078;
-    border-radius: 5px;
+    border-radius: 20px;
     margin: 1.5em 3em 1.5em 0;
     width: calc(50% - 1.5em); }
     .features article:nth-child(2n) {
       margin-right: 0; }
     .features article .image {
-      border-radius: 5px 5px 0 0;
+      border-radius: 20px 20px 0 0;
       display: block;
       margin-bottom: 1.75em;
       margin-left: -1.75em;
@@ -1828,7 +1828,7 @@ button,
       position: relative;
       width: calc(100% + 3.5em); }
       .features article .image img {
-        border-radius: 5px 5px 0 0;
+        border-radius: 20px 20px 0 0;
         width: 100%; }
   @media screen and (max-width: 980px) {
     .features article {
@@ -1902,7 +1902,7 @@ button,
         -webkit-transition: background-color 0.2s ease-in-out;
         -ms-transition: background-color 0.2s ease-in-out;
         transition: background-color 0.2s ease-in-out;
-        border-radius: 5px;
+        border-radius: 20px;
         box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
         padding: 0 1.35em; }
         #header nav a[href="#menu"]:before {
@@ -2014,7 +2014,7 @@ button,
     transition: opacity 0.35s ease, transform 0.35s ease;
     -webkit-overflow-scrolling: touch;
     background: #E785A2;
-    border-radius: 5px;
+    border-radius: 20px;
     display: block;
     max-width: 100%;
     opacity: 0;
@@ -2046,7 +2046,7 @@ button,
     #menu .links li {
       padding: 0; }
       #menu .links li a {
-        border-radius: 5px;
+        border-radius: 20px;
         border: 0;
         display: block;
         font-family: "Nunito", sans-serif;
@@ -2456,9 +2456,9 @@ body.is-menu-visible #menu {
     .wrapper.ourOverview .content {
       width: 100%;
       -ms-flex: 2;
-      color: #000000; }
+      color: #222; }
     .wrapper.ourOverview .content * {
-      color: #000000; }
+      color: #222; }
     .wrapper.ourOverview h2 {
       border-bottom: solid 2px rgba(0, 0, 0, 0.125); }
     .wrapper.ourOverview.style2 {
@@ -2513,9 +2513,9 @@ body.is-menu-visible #menu {
     .wrapper#five .content, .wrapper#five .major {
       width: 100%;
       -ms-flex: 2;
-      color: #000000; }
+      color: #222; }
     .wrapper#five .content * {
-      color: #000000; }
+      color: #222; }
     .wrapper#five article *, .wrapper#five article .major {
       color: #ffffff; }
   @media screen and (max-width: 980px) {
