@@ -126,7 +126,13 @@ h1, h2 {
     top: calc(0 + 10rem);
 
     box-shadow: 0px 0px 3rem rgba(0,0,0,.25);
+
+    border-radius: 15px;
 }
+
+@media screen and (max-width: 1680px) { #wrapper.overwrite .spotlight .image img {margin-top: -6rem;} }
+@media screen and (max-width: 1280px) { #wrapper.overwrite .spotlight .image img {margin-top: -11rem;} }
+@media screen and (max-width: 736px) { #wrapper.overwrite .spotlight .image img {margin-top: 0rem;} }
 
 #wrapper.overwrite #one { z-index: 10; }
 #wrapper.overwrite #two { z-index: 20; }
@@ -164,6 +170,10 @@ h1, h2 {
 
 #footer .inner ul.copyright {
 	margin:  2em 0 0 0;
+}
+
+#footer .inner {
+	padding-bottom: 2em;
 }
 
 .contact img {

@@ -2518,6 +2518,11 @@ body.is-menu-visible #menu {
       color: #222; }
     .wrapper.altCol article *, .wrapper.altCol article .major {
       color: #ffffff; }
+    .wrapper.altCol article a {
+      color: #ffffff;
+      font-weight: 700; }
+    .wrapper.altCol article a:hover {
+      color: #ffffff !important; }
     .wrapper.altCol h1 {
       color: #222; }
     .wrapper.altCol h2 {

@@ -280,6 +280,14 @@
 				color: _palette(fg);
 			}
 
+			article a {
+				color: _palette(fg);
+				font-weight: 700;
+			}
+			article a:hover {
+				color: _palette(fg) !important;
+			}
+
 			h1 {
 				color: _palette(fg-alt);
 			}
