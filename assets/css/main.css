@@ -2501,22 +2501,22 @@ body.is-menu-visible #menu {
         box-shadow: inset 0 -1px 0 0 #dcd6d6, 0 1px 0 0 #dcd6d6; }
       .wrapper.ourOverview.style6:after {
         box-shadow: inset 0 -1px 0 0 #dcd6d6, 0 1px 0 0 #dcd6d6; }
-  .wrapper#five {
+  .wrapper.altCol {
     background-color: #ffffff;
     color: black; }
-    .wrapper#five:before, .wrapper#five:after {
+    .wrapper.altCol:before, .wrapper.altCol:after {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23ffffff%3B' /%3E%3C/svg%3E"); }
-    .wrapper#five:before {
+    .wrapper.altCol:before {
       box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff; }
-    .wrapper#five:after {
+    .wrapper.altCol:after {
       box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff; }
-    .wrapper#five .content, .wrapper#five .major {
+    .wrapper.altCol .content, .wrapper.altCol .major {
       width: 100%;
       -ms-flex: 2;
       color: #222; }
-    .wrapper#five .content * {
+    .wrapper.altCol .content * {
       color: #222; }
-    .wrapper#five article *, .wrapper#five article .major {
+    .wrapper.altCol article *, .wrapper.altCol article .major {
       color: #ffffff; }
   @media screen and (max-width: 980px) {
     .wrapper {

@@ -260,7 +260,7 @@
 		}
 
 		/*ROBERT CUSTOM*/
-		&#five {
+		&.altCol {
 			@include wrapper-edges-color(_palette(fg));
 			background-color: _palette(fg);
 
