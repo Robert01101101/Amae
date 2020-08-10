@@ -319,7 +319,6 @@ ul.contact li.fa-phone {
 
 /*------------------------------------------------------------------------------------- Kaitlyn */
 .blue-bar {
-	padding-top:20px;
 	border-left:5px solid #42CBD4 !important;
 	padding-left:20px;
 	
@@ -342,6 +341,21 @@ ul.contact li.fa-phone {
 	width:450px;
 }
 
+.bordernone {
+    border:none;
+}
+
+.largerh2 {
+    font-size:1.8em;
+}
 .row {
 	padding-bottom:50px;
 }
+
+.wrapper .blue-bar h2 {
+    border: none;
+    font-size:1.5em;
+    line-height:120%;
+    margin-bottom:10px;
+}
+
