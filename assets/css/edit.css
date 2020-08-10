@@ -141,14 +141,12 @@ h1, h2 {
 .homeMockup img {    transition: transform .5s;}
 .homeMockup img:hover {    transform: scale(1.02); }
 
-
-
-
-
+/*------------------------------------------------------------------------------------- HOME Process */
 .features article {
     box-shadow: 0px 0px 3rem rgba(0,0,0,0.25);
 }
 
+/*------------------------------------------------------------------------------------- HOME Animations */
 [aos="fade"] {
   opacity: 0.5;
   transition-property: opacity;
@@ -158,12 +156,148 @@ h1, h2 {
   opacity: 1;
 }
 
+/*------------------------------------------------------------------------------------- Footer */
+#footer .inner ul.contact {
+	width: 100%;
+	margin: 0;
+}
 
+#footer .inner ul.copyright {
+	margin:  2em 0 0 0;
+}
 
+.contact img {
+	width: 12em;
+}
 
+ul.contact li {
+	margin-top: 1em;
+}
+ul.contact li.fa-phone {
+	margin-top: .8em;
+}
 
+.contact * {
+	font-size: .9em;
+}
 
+.copyright * {
+	font-size: .9em;
+}
 
+.contact .spacer {
+	margin-top: 1em;
+}
+
+.footerBox {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerBox .left{
+    padding-right: 5%;
+    flex: 1 1 30rem;
+}
+
+.footerBox .right{
+    padding-left: 5%;
+    flex: 1 1 15rem;
+}
+
+.footerBox a.imgLink{
+    border: none;
+}
+
+.reviewBox {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    margin-left: -1em;
+    margin-right: -1em;
+    max-height: 30rem;
+    overflow-y: scroll;
+    margin: -10px;
+}
+
+.reviewBox::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: rgba(0,0,0,0);
+	border-radius: 10px;
+}
+
+.review {
+	border: 2px solid rgba(255,255,255,.125);
+	border-radius: 20px;
+	padding: 1em;
+	width: calc(50% - 2em);
+	flex: 1 1 15rem;
+	margin: 10px;
+	position: relative;
+	font-size: .9em;
+}
+
+.review p:nth-of-type(1) {
+	margin-bottom: 3em;
+}
+
+.review p:nth-of-type(2) {
+	font-style: italic;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 1em;
+}
+
+/*------------------------------------------------------------------------------------- Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ddd;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #871C3C; 
+}
+
+/*
+
+.titleBox .left p {
+    letter-spacing: 0 !important;
+}
+.titleBox .right img {
+    margin-top: -8.5rem;
+    max-width: 160%;
+    z-index: 250;
+    float: right;
+    overflow-y: visible;
+    position: relative;
+}
+
+@media screen and (max-width: 736px) { 
+    .titleBox {height: 20rem;} 
+    .titleBox .right img {
+        margin-top: calc(-2rem - 20%);
+        max-width: calc(70% + 8rem);
+    }
+}
+*/
 
 
 
