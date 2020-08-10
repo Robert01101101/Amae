@@ -199,7 +199,7 @@
 
 			@for $i from 2 through _misc(max-wrapper-styles) {
 				$j: 3 * ($i - 1);
-				$color: saturate(darken(_palette(accent), $j), $j * 0.5);
+				$color: saturate(darken(_palette(accent), $j), $j * .5);
 
 				&.style#{$i} {
 					background-color: $color;
@@ -257,6 +257,29 @@
 					@include wrapper-edges-color($color);
 				}
 			}
+		}
+
+		/*ROBERT CUSTOM*/
+		&#five {
+			@include wrapper-edges-color(_palette(fg));
+			background-color: _palette(fg);
+
+			color: black;
+
+			.content, .major {
+				width: 100%;
+				-ms-flex: 2;
+				color: _palette(fg-alt);
+			}
+
+			.content * {
+				color: _palette(fg-alt);
+			}
+
+			article *, article .major {
+				color: _palette(fg);
+			}
+
 		}
 
 		@include breakpoint('<=medium') {
