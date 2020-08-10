@@ -18,6 +18,8 @@ $palette: (
 light grey: e0e0e0;
 */
 
+
+/*------------------------------------------------------------------------------------- Robert */
 /*------------------------------------------------------------------------------------- HOME Circles */
 h1, h2 {
 	letter-spacing: 0;
@@ -134,3 +136,21 @@ h1, h2 {
 #wrapper.overwrite #two .image img { z-index: 15; }
 #wrapper.overwrite #three .image img { z-index: 25; }
 #wrapper.overwrite #four .image img { z-index: 35; }
+
+
+/*------------------------------------------------------------------------------------- Kaitlyn */
+.blue-bar {
+	border-left:5px solid #42CBD4;
+	
+}
+
+.sec_title {
+	color:black;
+	font-size:1.8em;
+	font-weight:bold;
+
+}
+
+.sec_img img{
+	padding-left:50px;
+}
