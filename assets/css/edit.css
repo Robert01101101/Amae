@@ -1,180 +1,11 @@
-/*
-QUICK N DIRTY COLOR SCHEME:
-$palette: (
-		bg:						#D3426E,
-		fg:						#ffffff,
-		fg-bold:				#ffffff,
-		fg-light:				rgba(255,255,255,0.35),
-		border:					rgba(255,255,255,0.125),
-		border-bg:				rgba(255,255,255,0.025),
-		border2:				rgba(255,255,255,0.25),
-		border2-bg:				rgba(255,255,255,0.075),
-		accent:					#E785A2,
-		important:	    		#42CBD4,
-		fg-alt:					#000000,
-		border-alt:				rgba(0,0,0,0.125)
-	);
-
-light grey: e0e0e0;
-*/
-
-
-/*------------------------------------------------------------------------------------- Robert */
-/*------------------------------------------------------------------------------------- HOME Circles */
 h1, h2 {
 	letter-spacing: 0;
 }
 
-.myBox {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	width: 100%;
-}
-
-.myCircle {
-	color: white;
-	height: 14rem;
-	width: 14rem;
-	background-color: #c0c0c0;
-	border-radius: 50%;
-	line-height: 100%;
-
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-}
-
-.myCircle span {
-	width: 60%;
-	height: 60%;
-
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-
-	text-align: center;
-}
-@media screen and (max-width: 1680px) { .myCircle {height: 12rem; width: 12rem;} }
-@media screen and (max-width: 1280px) { .myCircle {height: 10rem; width: 10rem;} }
-@media screen and (max-width: 980px) { .myCircle {height: 8rem; width: 8rem;} }
-@media screen and (max-width: 736px) { .myCircle {height: 6rem; width: 6rem;} }
-@media screen and (max-width: 480px) { .myCircle {height: 4rem; width: 4rem;} }
-
-.ourOverview .inner {
-	padding-top: 7rem;
-	padding-bottom: 7rem;
-}
-
-
-
-/*------------------------------------------------------------------------------------- HOME BANNER */
-.titleBox {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	width: 100%;
-	height: 27rem;
-}
-.titleBox .left{
-	padding-right: 30%;
-}
-.titleBox .left p {
-	letter-spacing: 0 !important;
-}
-.titleBox .right img {
-	margin-top: -8.5rem;
-	max-width: 160%;
-	z-index: 250;
-	float: right;
-	overflow-y: visible;
-	position: relative;
-}
-
-@media screen and (max-width: 736px) { 
-	.titleBox {height: 20rem;} 
-	.titleBox .right img {
-		margin-top: calc(-2rem - 20%);
-		max-width: calc(70% + 8rem);
-	}
-}
-
-
-/*------------------------------------------------------------------------------------- HOME Spotlight */
-#wrapper.overwrite .spotlight {
-	overflow: visible;
-}
-
-#wrapper.overwrite .spotlight .image {
-	border-radius: 0;
-	height: 10rem;
-
-	overflow: visible;
-	position: relative;
-}
-
-#wrapper.overwrite .spotlight .image img {
-	border-radius: 0;
-
-	overflow: hidden;
-	position: absolute;
-
-	margin-top: -10rem;
-	top: calc(0 + 10rem);
-
-	box-shadow: 0px 0px 3rem rgba(0,0,0,.25);
-}
-
-#wrapper.overwrite #one { z-index: 10; }
-#wrapper.overwrite #two { z-index: 20; }
-#wrapper.overwrite #three { z-index: 30; }
-#wrapper.overwrite #four { z-index: 40; }
-#wrapper.overwrite #five { z-index: 50; }
-#wrapper.overwrite #one .image img { z-index: 5; }
-#wrapper.overwrite #two .image img { z-index: 15; }
-#wrapper.overwrite #three .image img { z-index: 25; }
-#wrapper.overwrite #four .image img { z-index: 35; }
-
-.homeMockup img {	transition: transform .5s;}
-.homeMockup img:hover {	transform: scale(1.02); }
-
-
-
-
-
-.features article {
-	box-shadow: 0px 0px 3rem rgba(0,0,0,0.25);
-}
-
-[aos="fade"] {
-  opacity: 0.5;
-  transition-property: opacity;
-}
-
-[aos="fade"].aos-animate {
-  opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------------------------------------------------------------------- Kaitlyn */
 .blue-bar {
-	border-left:5px solid #42CBD4;
+	padding-top:20px;
+	border-left:5px solid #42CBD4 !important;
+	padding-left:20px;
 	
 }
 
@@ -187,4 +18,14 @@ h1, h2 {
 
 .sec_img img{
 	padding-left:50px;
+	width:450px;
+}
+
+.sec_img2 img{
+	padding-right:50px;
+	width:450px;
+}
+
+.row {
+	padding-bottom:50px;
 }
