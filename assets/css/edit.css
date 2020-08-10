@@ -1,3 +1,19 @@
 h1, h2 {
 	letter-spacing: 0;
 }
+
+.blue-bar {
+	border-left:5px solid #42CBD4;
+	
+}
+
+.sec_title {
+	color:black;
+	font-size:1.8em;
+	font-weight:bold;
+
+}
+
+.sec_img img{
+	padding-left:50px;
+}
