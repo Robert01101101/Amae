@@ -50,20 +50,31 @@ html, body {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 100%;
-    height: 27rem;
+    height: 20rem;
 }
-
-.customInner div {
-    flex-basis: 50%;
+@media screen and (max-width: 980px) { .customInner  { height: 14rem; }}
+.customInner  div:nth-of-type(1) {
+    flex-basis: 60%;
+    padding-right: 10%;
 }
-
 .customInner  div:nth-of-type(2) {
+    flex-basis: 40%;
     padding-left: 10%;
 }
-
-.customInner img{
+.customInner div img{
     width: 100%;
+    margin-top: -20%;
 }
+.customInner p {
+    letter-spacing: 0 !important;
+    line-height:150% !important;
+    font-size: 1em !important;
+}
+.imgLandscape {
+    margin-top: 0;
+}
+
+
 
 /*------------------------------------------------------------------------------------- HOME BANNER */
 .titleBox {
@@ -76,10 +87,11 @@ html, body {
 }
 .titleBox .left{
     padding-right: 30%;
-    width:500px;
 }
 .titleBox .left p {
     letter-spacing: 0 !important;
+    line-height:150% !important;
+    font-size: 1em !important;
 }
 .titleBox .right img {
     margin-top: -2rem;
@@ -119,15 +131,13 @@ h1, h2 {
 }
 
 .myBox {
-    text-align:center;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-   
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .myCircle {
