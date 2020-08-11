@@ -9,7 +9,8 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$banner = $('#banner');
+		$banner = $('#banner'),
+		$myScrollArea = $('.myScrollArea');
 
 	// Breakpoints.
 		breakpoints({
@@ -40,6 +41,19 @@
 				leave:		function() { $header.removeClass('alt'); }
 			});
 
+		} 
+		// Robert Custom
+		else if ($banner.length == 0
+		&&	$header.hasClass('alt')
+		&& $myScrollArea.length > 0) {
+			$window.on('resize', function() { $window.trigger('scroll'); });
+
+			$myScrollArea.scrollex({
+				bottom:		$header.outerHeight(),
+				terminate:	function() { $header.removeClass('alt'); },
+				enter:		function() { $header.addClass('alt'); },
+				leave:		function() { $header.removeClass('alt'); }
+			});
 		}
 
 	// Menu.

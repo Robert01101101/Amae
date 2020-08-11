@@ -83,6 +83,11 @@
 			background-color: transparent;
 
 			h1 {
+				opacity: 1;
+				visibility: default;
+			}
+
+			h1.home {
 				opacity: 0;
 				visibility: hidden;
 			}

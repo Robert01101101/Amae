@@ -19,7 +19,7 @@ light grey: e0e0e0;
 */
 
 
-/*------------------------------------------------------------------------------------- Robert */
+/*--------------------------------------------------------------------------------------------------------------------------- Robert */
 /*------------------------------------------------------------------------------------- General */
 html, body {
 	max-width: 100% !important;
@@ -55,19 +55,21 @@ html, body {
     width: 100%;
     height: 20rem;
 }
-@media screen and (max-width: 980px) { .customInner  { height: 14rem; }}
+@media screen and (max-width: 980px) { .customInner  { height: 18rem; }}
 .customInner  div:nth-of-type(1) {
-    flex-basis: 60%;
+    flex-basis: 35%;
     padding-right: 10%;
 }
 .customInner  div:nth-of-type(2) {
-    flex-basis: 40%;
+    flex-basis: 65%;
     padding-left: 10%;
 }
 .customInner div img{
     width: 100%;
-    margin-top: -20%;
+    margin-top: -35%;
+    box-shadow: 0rem 0rem 1rem rgba(0,0,0,0.125);
 }
+@media screen and (max-width: 980px) { .customInner div img  { margin-top: calc(4rem - 50%); }}
 .customInner p {
     letter-spacing: 0 !important;
     line-height:150% !important;
@@ -131,6 +133,11 @@ html, body {
 
 h1, h2 {
     letter-spacing: 0;
+}
+
+h1 {
+    font-size: 1.5rem !important;
+    font-weight: 400;
 }
 
 .myBox {
@@ -210,6 +217,10 @@ h1, h2 {
     box-shadow: 0px 0px 3rem rgba(0,0,0,.25);
 
     border-radius: 15px;
+}
+
+#wrapper.overwrite .spotlight .image img:hover {
+    transform: scale(1.01); 
 }
 
 @media screen and (max-width: 1680px) { #wrapper.overwrite .spotlight .image img {margin-top: -6rem;} }
@@ -368,28 +379,25 @@ ul.contact li.fa-phone {
   background: #871C3C; 
 }
 
-/*
-
-.titleBox .left p {
-    letter-spacing: 0 !important;
-}
-.titleBox .right img {
-    margin-top: -8.5rem;
-    max-width: 160%;
-    z-index: 250;
-    float: right;
-    overflow-y: visible;
-    position: relative;
+/*------------------------------------------------------------------------------------- Last Sec Edits */
+.flex2col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
-@media screen and (max-width: 736px) { 
-    .titleBox {height: 20rem;} 
-    .titleBox .right img {
-        margin-top: calc(-2rem - 20%);
-        max-width: calc(70% + 8rem);
-    }
+.flex2col * {
+    flex-basis: 50%; 
+    padding-top:50px;
 }
-*/
+.flex2col img {
+    width: 50%;
+}
+.features article .image img {
+    border-radius: 18px 18px 0 0 !important;
+}
 
 
 
@@ -398,8 +406,7 @@ ul.contact li.fa-phone {
 
 
 
-
-/*------------------------------------------------------------------------------------- Kaitlyn */
+/*--------------------------------------------------------------------------------------------------------------------------- Kaitlyn */
 .blue-bar {
 	border-left:5px solid #42CBD4 !important;
 	padding-left:20px;
