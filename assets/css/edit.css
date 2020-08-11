@@ -42,6 +42,9 @@ html, body {
 .highlightedMenuBtn{
     background-color: #e67798;
 }
+.altCol img {
+    image-rendering: crisp-edges;
+}
 
 /*-------------------------------------------- Top Wrapper*/
 .customInner {
