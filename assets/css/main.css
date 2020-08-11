@@ -2224,9 +2224,9 @@ body.is-menu-visible #menu {
     font-family: "Nunito", sans-serif;
     font-size: 1em;
     font-weight: 200;
-    letter-spacing: 0.1em;
+    /*letter-spacing: _font(kern-heading);*/
     line-height: 2;
-    text-transform: uppercase; }
+    /*text-transform: uppercase;*/ }
 
 @media screen and (max-width: 1280px) {
   #wrapper > header {
