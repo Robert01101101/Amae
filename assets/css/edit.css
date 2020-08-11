@@ -398,10 +398,19 @@ ul.contact li.fa-phone {
 .features article .image img {
     border-radius: 18px 18px 0 0 !important;
 }
-
-
-
-
+.myIcon {
+    width: 1.5em;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: -.2em;
+}
+.myIconMenu {
+    width: 1.5em;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: -.3em;
+}
+@media screen and (max-width: 736px) { .myIconMenu { width: 1.1em; margin-bottom: -.15em;} }
 
 
 
