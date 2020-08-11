@@ -20,6 +20,12 @@ light grey: e0e0e0;
 
 
 /*------------------------------------------------------------------------------------- Robert */
+/*------------------------------------------------------------------------------------- General */
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 /*------------------------------------------------------------------------------------- HOME Circles */
 
 h1, h2 {
@@ -86,20 +92,34 @@ h1, h2 {
     letter-spacing: 0 !important;
 }
 .titleBox .right img {
-    margin-top: -8.5rem;
-    max-width: 160%;
+    margin-top: -2rem;
+    margin-right: -100%;
+    max-width: 250%;
     z-index: 250;
     float: right;
     overflow-y: visible;
     position: relative;
+    image-rendering: crisp-edges;
+}
+.myImgConainer {
+	position: relative;
+}
+.titleBox .right img.myOver { 
+	position: relative;
+	z-index: 1;
+}
+.titleBox .right img.myUnder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    display: default;
 }
 
-@media screen and (max-width: 736px) { 
-    .titleBox {height: 20rem;} 
-    .titleBox .right img {
-        margin-top: calc(-2rem - 20%);
-        max-width: calc(70% + 8rem);
-    }
+@media screen and (max-width: 736px) { .titleBox .right img { margin-top: calc(5rem + 2rem - 30%); }}
+@media screen and (max-width: 980px) { .titleBox  { height: 20rem; } .titleBox .right img.myUnder { display: none; }}
+@media screen and (max-width: 1680px) { 
+    .titleBox .right img { max-width: 270%; margin-right: -110%; }
 }
 
 
