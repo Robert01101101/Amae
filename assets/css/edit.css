@@ -26,6 +26,23 @@ html, body {
 	overflow-x: hidden !important;
 }
 
+.collapseContent {
+    display: none;
+}
+.collapseContent * {
+    font-size: .9em;
+}
+.collapsibleMenu {
+    width: 100%;
+}
+.collapsibleMenu:focus, .collapsibleMenu:focus{
+    outline: none;
+}
+.highlightedMenuBtn{
+    background-color: #e67798;
+}
+
+
 /*------------------------------------------------------------------------------------- HOME Circles */
 
 h1, h2 {
