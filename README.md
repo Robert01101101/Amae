@@ -1,2 +1,2 @@
 # 334-Git
-LET'S GET DONE WITH THIS SHIT
+Amae website
